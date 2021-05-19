@@ -5,4 +5,4 @@ In this project I will parse json data in to tableview with images using SwiftyJ
 
 
 
-1[](images/firstPage%20.png)
+1[](images/firstPage.png)
