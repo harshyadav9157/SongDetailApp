@@ -17,6 +17,8 @@
 		B066973926495D8D00977023 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066973826495D8D00977023 /* DetailTableViewController.swift */; };
 		B066974A2649622800977023 /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06697492649622800977023 /* FirstTableViewCell.swift */; };
 		B066974E2649655600977023 /* Struct.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066974D2649655600977023 /* Struct.swift */; };
+		B0C638A726553441002421C1 /* firstPage.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C638A626553441002421C1 /* firstPage.png */; };
+		B0C638AA26553449002421C1 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B0C638A926553449002421C1 /* second.png */; };
 		B4AD312821A1FACBB82A7FF0 /* libPods-SongDetailApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E18E2D7FD46A780D867B5FFA /* libPods-SongDetailApp.a */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		B066973826495D8D00977023 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		B06697492649622800977023 /* FirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
 		B066974D2649655600977023 /* Struct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Struct.swift; sourceTree = "<group>"; };
+		B0C638A626553441002421C1 /* firstPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = firstPage.png; sourceTree = "<group>"; };
+		B0C638A926553449002421C1 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		E18E2D7FD46A780D867B5FFA /* libPods-SongDetailApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SongDetailApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,6 +105,7 @@
 				B01C11AC2649E2CF00B4B5FC /* Model */,
 				B01C11AB2649E2BF00B4B5FC /* view */,
 				B01C11AD2649E2E000B4B5FC /* controller */,
+				B0C638A526553428002421C1 /* images */,
 				B066971F264956B800977023 /* Main.storyboard */,
 				B0669725264956BD00977023 /* Assets.xcassets */,
 				B0669727264956BD00977023 /* LaunchScreen.storyboard */,
@@ -108,6 +113,15 @@
 				B0669722264956B800977023 /* SongDetailApp.xcdatamodeld */,
 			);
 			path = SongDetailApp;
+			sourceTree = "<group>";
+		};
+		B0C638A526553428002421C1 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B0C638A626553441002421C1 /* firstPage.png */,
+				B0C638A926553449002421C1 /* second.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 		B492EC503450980E3285F62E /* Pods */ = {
@@ -186,8 +200,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0669729264956BD00977023 /* LaunchScreen.storyboard in Resources */,
+				B0C638A726553441002421C1 /* firstPage.png in Resources */,
 				B0669726264956BD00977023 /* Assets.xcassets in Resources */,
 				B0669721264956B800977023 /* Main.storyboard in Resources */,
+				B0C638AA26553449002421C1 /* second.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
